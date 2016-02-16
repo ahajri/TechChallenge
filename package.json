@@ -1,0 +1,36 @@
+{
+  "name": "TechChallenge",
+  "version": "0.1.0",
+  "description": "TechChallenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1",
+    "postinstall": "bower install"
+  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "Anis HAJRI",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.0",
+    "csvtojson": "^0.5.2",
+    "express": "^4.13.4",
+    "glob": "^6.0.4",
+    "http": "0.0.0",
+    "json-update": "^1.2.0",
+    "node-uuid": "^1.4.7",
+    "nodemailer": "^2.1.0",
+    "passport": "^0.3.2",
+    "path": "^0.12.7",
+    "request": "^2.69.0",
+    "serve-static": "~1.7.0",
+    "url": "^0.11.0"
+  }
+}

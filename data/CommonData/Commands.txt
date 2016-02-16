@@ -1,0 +1,17 @@
+#for local file
+mlcp.bat import -host localhost -port 8000 -username ahajri -password mafhh14$ -input_file_path  C:/Users/ahajri/git/TechChallenge/data/CommonData/import/ -output_uri_replace "C:/Users/ahajri/git/TechChallenge/data/CommonData,''"  -mode local
+mlcp.bat import -host localhost -port 8000 -username ahajri -password mafhh14$ -input_file_path  C:/Users/ahajri/git/CoteTransport/data/ref/geo -output_uri_replace "C:/Users/ahajri/git/CoteTransport/data/ref,''"  -mode local
+
+#Create REST Instance
+curl --anyauth --user ahajri:mafhh14$ -i -X POST -d'{"rest-api":{"name":"rest-example"}}' -H "Content-type: application/json"   http://localhost:8008/LATEST/rest-apis
+#add document with REST
+curl -v --digest --user ahajri:mafhh14$ -H "Content-Type: application/json" -X PUT -d '{"person":{"first":"Anis", "last":"HAJRI"}}' "http://localhost:8008/v1/documents?uri=/docs/person.json"
+
+#copy documents between databases
+mlcp.bat copy -mode local -input_host localhost -input_port 8008\
+    -input_username user1 -input_password password1 \
+    -output_host desthost -output_port 8010 -output_username user2 \
+    -output_password password2
+
+#retrieve instance config by dataabse
+http://host:8002/version/rest-apis?database=ahajri-rest-instance-modules

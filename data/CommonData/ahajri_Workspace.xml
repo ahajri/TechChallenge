@@ -1,0 +1,109 @@
+<export><workspace name="ahajri_Workspace"><query name="Query 1" focus="false" active="true" content-source="as:200067409934664761:" mode="xquery">(:  __________________________________________________________
+ ::  (Q1.1)
+ ::  List countries by area
+ :: __________________________________________________________
+  :)
+&lt;countries&gt;
+ {
+   for $b in doc("/import/countries.xml")//countries/country
+  where  $b/area &gt;5 and $b/currency/country="EUR"
+  return
+    &lt;country name="{ $b/name/common }"&gt;
+      { $b/translations }
+    &lt;/country&gt;
+ }
+&lt;/countries&gt;
+
+</query><query name="Query 2" focus="false" active="true" content-source="as:200067409934664761:" mode="xquery">(:  __________________________________________________________
+ ::  (Q1.1)
+ ::  determine document collections
+ :: __________________________________________________________
+  :)
+ 
+ 
+xdmp:document-get-collections("/input/countries.xml")
+</query><query name="Query 3" focus="false" active="true" content-source="as:200067409934664761:" mode="xquery">(:  __________________________________________________________
+ ::  (Q1.1)
+ ::  List Countries by Language
+ :: __________________________________________________________
+  :)
+&lt;countries&gt;
+ {
+  for $b in doc("/import/countries.xml")/countries/country
+    where $b/currency/country = "EUR"
+  return
+    &lt;country&gt;
+     { $b/name/common }
+    &lt;/country&gt;
+ }
+&lt;/countries&gt;</query><query name="Query 4" focus="false" active="true" content-source="14607400573595602319:0:Apps" mode="xquery">(:  __________________________________________________________
+ ::  (Q1.1)
+ ::  List documents in directory
+ :: __________________________________________________________
+  :)
+
+for $x in xdmp:directory("/import/", "1")
+return
+fn:document-uri($x)</query><query name="Query 5" focus="false" active="true" content-source="as:200067409934664761:" mode="xquery">xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+(:  __________________________________________________________
+ ::  (Q1.1)
+ ::  delete document
+ :: __________________________________________________________
+  :)
+
+
+xdmp:document-delete("//import/co2_emission_countries.xml");
+
+xdmp:document-delete("//import/gdp_countries.xml");
+xdmp:document-delete("//import/countries.xml");
+
+xdmp:document-delete("//import/electric_consumption_power.xml");
+</query><query name="Query 6" focus="false" active="false" content-source="as:6762680074813142386:" mode="xquery">xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+(:  __________________________________________________________
+ ::  (Q1.4)
+ ::  For each currency list all countries's name
+ :: __________________________________________________________
+  :)
+&lt;results&gt;
+  {
+    
+    let $a :=  doc("/import/countries.xml")//countries//country  
+    for $borders in distinct-values($a/borders/country),
+        $name in distinct-values($a[cca3=$borders])
+        
+    order by  $borders,  $name
+    return
+        &lt;result&gt;
+            &lt;country name="{ $name }"&gt;
+               
+            &lt;/country&gt;
+            {
+               (: for $b in doc("/import/countries.xml")/countries/country  
+                where some $ba in $b/cca3 
+                      satisfies ($ba/cca3 = $borders) 
+                return &lt;border&gt;$b/name/common&lt;/border&gt;
+            }:)}
+        &lt;/result&gt;
+  }
+  &lt;/results&gt;</query><query name="Query 7" focus="false" active="true" content-source="as:200067409934664761:" mode="xquery">xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+
+(: Substitute in the URI of the document you want to test :)
+let $x:= doc("/import/co2_emission_countries.xml")/node()
+return
+typeswitch ( $x )
+ case element() return "xml element node"
+ case text() return "text node"
+ case binary() return "binary node"
+default return "don't know"</query><query name="Query 8" focus="true" active="true" content-source="14607400573595602319:0:Apps" mode="xquery">xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+(: Load document in database :)
+xdmp:document-load("C:\Users\ahajri\git\TechChallenge\data\CommonData\import\gdp_countries.xml", 
+          &lt;options xmlns="xdmp:document-load"&gt;
+            &lt;uri&gt;/input/gdp_countries.xml&lt;/uri&gt; 
+            &lt;permissions&gt;{xdmp:default-permissions()}&lt;/permissions&gt; 
+            &lt;collections&gt;{xdmp:default-collections()}&lt;/collections&gt; 
+            &lt;format&gt;xml&lt;/format&gt;
+          &lt;/options&gt;)</query></workspace></export>

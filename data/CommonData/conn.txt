@@ -1,0 +1,8 @@
+-username
+ahajri
+-password
+mafhh14$
+-host
+localhost
+-port
+8000
