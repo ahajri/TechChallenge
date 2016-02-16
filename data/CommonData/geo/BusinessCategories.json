@@ -1,4 +1,4 @@
-[
+{"categories":[
     {
         "alias": "3dprinting", 
         "parents": [
@@ -461,14 +461,14 @@
     {
         "alias": "arts", 
         "parents": [], 
-        "title": "Arts & Entertainment"
+        "title": "Arts And Entertainment"
     }, 
     {
         "alias": "artsandcrafts", 
         "parents": [
             "shopping"
         ], 
-        "title": "Arts & Crafts"
+        "title": "Arts And Crafts"
     }, 
     {
         "alias": "artschools", 
@@ -743,7 +743,7 @@
         "parents": [
             "auto"
         ], 
-        "title": "Auto Parts & Supplies"
+        "title": "Auto Parts And Supplies"
     }, 
     {
         "alias": "autorepair", 
@@ -791,7 +791,7 @@
         "parents": [
             "shopping"
         ], 
-        "title": "Baby Gear & Furniture"
+        "title": "Baby Gear And Furniture"
     }, 
     {
         "country_whitelist": [
@@ -899,7 +899,7 @@
         "parents": [
             "financialservices"
         ], 
-        "title": "Banks & Credit Unions"
+        "title": "Banks And Credit Unions"
     }, 
     {
         "alias": "barbers", 
@@ -1108,11 +1108,11 @@
     {
         "alias": "beautysvc", 
         "parents": [], 
-        "title": "Beauty & Spas"
+        "title": "Beauty And Spas"
     }, 
     {
         "alias": "bedbreakfast", 
-        "title": "Bed & Breakfast", 
+        "title": "Bed And Breakfast", 
         "parents": [
             "hotelstravel"
         ], 
@@ -1125,7 +1125,7 @@
         "parents": [
             "food"
         ], 
-        "title": "Beer, Wine & Spirits"
+        "title": "Beer, Wine And Spirits"
     }, 
     {
         "alias": "beerbar", 
@@ -1457,11 +1457,11 @@
         "parents": [
             "homeservices"
         ], 
-        "title": "Shades & Blinds"
+        "title": "Shades And Blinds"
     }, 
     {
         "alias": "blooddonation", 
-        "title": "Blood & Plasma Donation Centers", 
+        "title": "Blood And Plasma Donation Centers", 
         "parents": [
             "health"
         ], 
@@ -1667,7 +1667,7 @@
         "parents": [
             "restaurants"
         ], 
-        "title": "Breakfast & Brunch"
+        "title": "Breakfast And Brunch"
     }, 
     {
         "alias": "breweries", 
@@ -1896,7 +1896,7 @@
         "parents": [
             "health"
         ], 
-        "title": "Counseling & Mental Health"
+        "title": "Counseling And Mental Health"
     }, 
     {
         "alias": "cabaret", 
@@ -2496,7 +2496,7 @@
         "parents": [
             "localservices"
         ], 
-        "title": "Child Care & Day Care"
+        "title": "Child Care And Day Care"
     }, 
     {
         "alias": "childcloth", 
@@ -2569,7 +2569,7 @@
         "parents": [
             "gourmet"
         ], 
-        "title": "Chocolatiers & Shops"
+        "title": "Chocolatiers And Shops"
     }, 
     {
         "alias": "choirs", 
@@ -2704,7 +2704,7 @@
         "parents": [
             "food"
         ], 
-        "title": "Coffee & Tea"
+        "title": "Coffee And Tea"
     }, 
     {
         "country_whitelist": [
@@ -2734,7 +2734,7 @@
             "SE", 
             "GB"
         ], 
-        "title": "Coffee & Tea Supplies", 
+        "title": "Coffee And Tea Supplies", 
         "parents": [
             "food"
         ], 
@@ -2756,7 +2756,7 @@
         "parents": [
             "education"
         ], 
-        "title": "Colleges & Universities"
+        "title": "Colleges And Universities"
     }, 
     {
         "country_whitelist": [
@@ -3013,7 +3013,7 @@
             "shopping", 
             "beautysvc"
         ], 
-        "title": "Cosmetics & Beauty Supply"
+        "title": "Cosmetics And Beauty Supply"
     }, 
     {
         "alias": "cosmeticsurgeons", 
@@ -3087,7 +3087,7 @@
         "parents": [
             "localservices"
         ], 
-        "title": "Couriers & Delivery Services"
+        "title": "Couriers And Delivery Services"
     }, 
     {
         "country_whitelist": [
@@ -3407,7 +3407,7 @@
         "parents": [
             "homeservices"
         ], 
-        "title": "Decks & Railing"
+        "title": "Decks And Railing"
     }, 
     {
         "alias": "delicatessen", 
@@ -3660,7 +3660,7 @@
         "parents": [
             "lawyers"
         ], 
-        "title": "Divorce & Family Law"
+        "title": "Divorce And Family Law"
     }, 
     {
         "alias": "diyfood", 
@@ -3849,11 +3849,11 @@
         "parents": [
             "localservices"
         ], 
-        "title": "Dry Cleaning & Laundry"
+        "title": "Dry Cleaning And Laundry"
     }, 
     {
         "alias": "drywall", 
-        "title": "Drywall Installation & Repair", 
+        "title": "Drywall Installation And Repair", 
         "parents": [
             "homeservices"
         ], 
@@ -3899,7 +3899,7 @@
         "parents": [
             "physicians"
         ], 
-        "title": "Ear Nose & Throat"
+        "title": "Ear Nose And Throat"
     }, 
     {
         "country_whitelist": [
@@ -4050,7 +4050,7 @@
             "MX", 
             "SE"
         ], 
-        "title": "Embroidery & Crochet", 
+        "title": "Embroidery And Crochet", 
         "parents": [
             "artsandcrafts"
         ], 
@@ -4286,12 +4286,12 @@
         "parents": [
             "eventservices"
         ], 
-        "title": "Party & Event Planning"
+        "title": "Party And Event Planning"
     }, 
     {
         "alias": "eventservices", 
         "parents": [], 
-        "title": "Event Planning & Services"
+        "title": "Event Planning And Services"
     }, 
     {
         "country_whitelist": [
@@ -4432,7 +4432,7 @@
             "SG", 
             "MX"
         ], 
-        "title": "Fences & Gates", 
+        "title": "Fences And Gates", 
         "parents": [
             "homeservices"
         ], 
@@ -4623,7 +4623,7 @@
     }, 
     {
         "alias": "fishnchips", 
-        "title": "Fish & Chips", 
+        "title": "Fish And Chips", 
         "parents": [
             "restaurants"
         ], 
@@ -4637,7 +4637,7 @@
         "parents": [
             "active"
         ], 
-        "title": "Fitness & Instruction"
+        "title": "Fitness And Instruction"
     }, 
     {
         "alias": "fitnessequipment", 
@@ -4703,7 +4703,7 @@
         "parents": [
             "shopping"
         ], 
-        "title": "Flowers & Gifts"
+        "title": "Flowers And Gifts"
     }, 
     {
         "alias": "flyboarding", 
@@ -4911,7 +4911,7 @@
         "parents": [
             "localservices"
         ], 
-        "title": "Funeral Services & Cemeteries"
+        "title": "Funeral Services And Cemeteries"
     }, 
     {
         "country_whitelist": [
@@ -5033,7 +5033,7 @@
         "parents": [
             "homeandgarden"
         ], 
-        "title": "Nurseries & Gardening"
+        "title": "Nurseries And Gardening"
     }, 
     {
         "alias": "gardens", 
@@ -5164,7 +5164,7 @@
     }, 
     {
         "alias": "glassandmirrors", 
-        "title": "Glass & Mirrors", 
+        "title": "Glass And Mirrors", 
         "parents": [
             "homeservices"
         ], 
@@ -5398,7 +5398,7 @@
             "AT", 
             "MX"
         ], 
-        "title": "Guns & Ammo", 
+        "title": "Guns And Ammo", 
         "parents": [
             "shopping"
         ], 
@@ -5693,7 +5693,7 @@
     {
         "alias": "health", 
         "parents": [], 
-        "title": "Health & Medical"
+        "title": "Health And Medical"
     }, 
     {
         "country_whitelist": [
@@ -5815,7 +5815,7 @@
         "parents": [
             "gourmet"
         ], 
-        "title": "Herbs & Spices"
+        "title": "Herbs And Spices"
     }, 
     {
         "country_whitelist": [
@@ -5852,7 +5852,7 @@
         "parents": [
             "education"
         ], 
-        "title": "Middle Schools & High Schools"
+        "title": "Middle Schools And High Schools"
     }, 
     {
         "alias": "hiking", 
@@ -5942,14 +5942,14 @@
         "parents": [
             "shopping"
         ], 
-        "title": "Home & Garden"
+        "title": "Home And Garden"
     }, 
     {
         "alias": "homeappliancerepair", 
         "parents": [
             "localservices"
         ], 
-        "title": "Appliances & Repair"
+        "title": "Appliances And Repair"
     }, 
     {
         "country_whitelist": [
@@ -5990,7 +5990,7 @@
         "parents": [
             "insurance"
         ], 
-        "title": "Home & Rental Insurance"
+        "title": "Home And Rental Insurance"
     }, 
     {
         "country_whitelist": [
@@ -6262,7 +6262,7 @@
     {
         "alias": "hotelstravel", 
         "parents": [], 
-        "title": "Hotels & Travel"
+        "title": "Hotels And Travel"
     }, 
     {
         "country_whitelist": [
@@ -6303,7 +6303,7 @@
         "parents": [
             "homeandgarden"
         ], 
-        "title": "Hot Tub & Pool"
+        "title": "Hot Tub And Pool"
     }, 
     {
         "country_whitelist": [
@@ -6348,7 +6348,7 @@
         "parents": [
             "homeservices"
         ], 
-        "title": "Heating & Air Conditioning/HVAC"
+        "title": "Heating And Air Conditioning/HVAC"
     }, 
     {
         "alias": "hypnosis", 
@@ -6384,7 +6384,7 @@
         "parents": [
             "food"
         ], 
-        "title": "Ice Cream & Frozen Yogurt"
+        "title": "Ice Cream And Frozen Yogurt"
     }, 
     {
         "alias": "immigrationlawyers", 
@@ -6495,7 +6495,7 @@
             "ES", 
             "MX"
         ], 
-        "title": "Internet Booths & Calling Centers", 
+        "title": "Internet Booths And Calling Centers", 
         "parents": [
             "localservices"
         ], 
@@ -6520,7 +6520,7 @@
             "CZ", 
             "US"
         ], 
-        "title": "IP & Internet Law", 
+        "title": "IP And Internet Law", 
         "parents": [
             "lawyers"
         ], 
@@ -6593,7 +6593,7 @@
         "parents": [
             "localservices"
         ], 
-        "title": "IT Services & Computer Repair"
+        "title": "IT Services And Computer Repair"
     }, 
     {
         "country_whitelist": [
@@ -6657,7 +6657,7 @@
             "arts", 
             "nightlife"
         ], 
-        "title": "Jazz & Blues"
+        "title": "Jazz And Blues"
     }, 
     {
         "alias": "jetskis", 
@@ -6722,14 +6722,14 @@
         "parents": [
             "food"
         ], 
-        "title": "Juice Bars & Smoothies"
+        "title": "Juice Bars And Smoothies"
     }, 
     {
         "alias": "junkremovalandhauling", 
         "parents": [
             "localservices"
         ], 
-        "title": "Junk Removal & Hauling"
+        "title": "Junk Removal And Hauling"
     }, 
     {
         "country_whitelist": [
@@ -6813,7 +6813,7 @@
         "parents": [
             "homeandgarden"
         ], 
-        "title": "Kitchen & Bath"
+        "title": "Kitchen And Bath"
     }, 
     {
         "country_whitelist": [
@@ -6987,7 +6987,7 @@
         "parents": [
             "publicservicesgovt"
         ], 
-        "title": "Landmarks & Historical Buildings"
+        "title": "Landmarks And Historical Buildings"
     }, 
     {
         "alias": "landscapearchitects", 
@@ -7203,7 +7203,7 @@
         "parents": [
             "homeservices"
         ], 
-        "title": "Lighting Fixtures & Equipment"
+        "title": "Lighting Fixtures And Equipment"
     }, 
     {
         "country_whitelist": [
@@ -7251,7 +7251,7 @@
         "parents": [
             "shopping"
         ], 
-        "title": "Livestock Feed & Supply"
+        "title": "Livestock Feed And Supply"
     }, 
     {
         "country_whitelist": [
@@ -7289,7 +7289,7 @@
         "parents": [
             "homeservices"
         ], 
-        "title": "Keys & Locksmiths"
+        "title": "Keys And Locksmiths"
     }, 
     {
         "alias": "lounges", 
@@ -7343,7 +7343,7 @@
         "parents": [
             "localservices"
         ], 
-        "title": "Machine & Tool Rental"
+        "title": "Machine And Tool Rental"
     }, 
     {
         "country_whitelist": [
@@ -7376,7 +7376,7 @@
         "parents": [
             "media"
         ], 
-        "title": "Newspapers & Magazines"
+        "title": "Newspapers And Magazines"
     }, 
     {
         "country_whitelist": [
@@ -7483,7 +7483,7 @@
         "parents": [
             "gourmet"
         ], 
-        "title": "Fruits & Veggies"
+        "title": "Fruits And Veggies"
     }, 
     {
         "country_whitelist": [
@@ -7634,7 +7634,7 @@
         "parents": [
             "shopping"
         ], 
-        "title": "Books, Mags, Music & Video"
+        "title": "Books, Mags, Music And Video"
     }, 
     {
         "country_whitelist": [
@@ -7880,7 +7880,7 @@
         "country_whitelist": [
             "US"
         ], 
-        "title": "Mobility Equipment Sales & Services", 
+        "title": "Mobility Equipment Sales And Services", 
         "parents": [
             "auto"
         ], 
@@ -8096,7 +8096,7 @@
         "parents": [
             "shopping"
         ], 
-        "title": "Musical Instruments & Teachers"
+        "title": "Musical Instruments And Teachers"
     }, 
     {
         "alias": "musicians", 
@@ -8137,7 +8137,7 @@
         "parents": [
             "media"
         ], 
-        "title": "Music & DVDs"
+        "title": "Music And DVDs"
     }, 
     {
         "alias": "nailtechnicians", 
@@ -8426,7 +8426,7 @@
         "parents": [
             "physicians"
         ], 
-        "title": "Obstetricians & Gynecologists"
+        "title": "Obstetricians And Gynecologists"
     }, 
     {
         "alias": "observatories", 
@@ -8556,7 +8556,7 @@
         "parents": [
             "arts"
         ], 
-        "title": "Opera & Ballet"
+        "title": "Opera And Ballet"
     }, 
     {
         "alias": "opthamalogists", 
@@ -8570,7 +8570,7 @@
         "parents": [
             "shopping"
         ], 
-        "title": "Eyewear & Opticians"
+        "title": "Eyewear And Opticians"
     }, 
     {
         "alias": "optometrists", 
@@ -8744,7 +8744,7 @@
             "HK", 
             "US"
         ], 
-        "title": "Paint & Sip", 
+        "title": "Paint And Sip", 
         "parents": [
             "arts"
         ], 
@@ -9300,7 +9300,7 @@
         "parents": [
             "shopping"
         ], 
-        "title": "Photography Stores & Services"
+        "title": "Photography Stores And Services"
     }, 
     {
         "alias": "physicaltherapy", 
@@ -9536,7 +9536,7 @@
     }, 
     {
         "alias": "poolbilliards", 
-        "title": "Pool & Billiards", 
+        "title": "Pool And Billiards", 
         "parents": [
             "shopping"
         ], 
@@ -9575,7 +9575,7 @@
         "parents": [
             "homeservices"
         ], 
-        "title": "Pool & Hot Tub Service"
+        "title": "Pool And Hot Tub Service"
     }, 
     {
         "country_whitelist": [
@@ -9834,7 +9834,7 @@
         "parents": [
             "arts"
         ], 
-        "title": "Psychics & Astrologers"
+        "title": "Psychics And Astrologers"
     }, 
     {
         "country_whitelist": [
@@ -9924,7 +9924,7 @@
     {
         "alias": "publicservicesgovt", 
         "parents": [], 
-        "title": "Public Services & Government"
+        "title": "Public Services And Government"
     }, 
     {
         "alias": "publictransport", 
@@ -9998,7 +9998,7 @@
             "SG", 
             "SE"
         ], 
-        "title": "Races & Competitions", 
+        "title": "Races And Competitions", 
         "parents": [
             "active"
         ], 
@@ -10117,7 +10117,7 @@
         "parents": [
             "localservices"
         ], 
-        "title": "Recording & Rehearsal Studios"
+        "title": "Recording And Rehearsal Studios"
     }, 
     {
         "alias": "recreation", 
@@ -10899,7 +10899,7 @@
         "parents": [
             "auto"
         ], 
-        "title": "Gas & Service Stations"
+        "title": "Gas And Service Stations"
     }, 
     {
         "country_whitelist": [
@@ -10923,7 +10923,7 @@
         "parents": [
             "localservices"
         ], 
-        "title": "Sewing & Alterations"
+        "title": "Sewing And Alterations"
     }, 
     {
         "alias": "sextherapists", 
@@ -11192,7 +11192,7 @@
     }, 
     {
         "alias": "skishops", 
-        "title": "Ski & Snowboard Shops", 
+        "title": "Ski And Snowboard Shops", 
         "parents": [
             "sportgoods"
         ], 
@@ -11623,7 +11623,7 @@
         "parents": [
             "arts"
         ], 
-        "title": "Stadiums & Arenas"
+        "title": "Stadiums And Arenas"
     }, 
     {
         "alias": "stationery", 
@@ -11632,7 +11632,7 @@
             "flowers", 
             "eventservices"
         ], 
-        "title": "Cards & Stationery"
+        "title": "Cards And Stationery"
     }, 
     {
         "alias": "steak", 
@@ -13113,7 +13113,7 @@
         "parents": [
             "eventservices"
         ], 
-        "title": "Venues & Event Spaces"
+        "title": "Venues And Event Spaces"
     }, 
     {
         "alias": "vet", 
@@ -13127,7 +13127,7 @@
         "parents": [
             "media"
         ], 
-        "title": "Videos & Video Game Rental"
+        "title": "Videos And Video Game Rental"
     }, 
     {
         "alias": "videofilmproductions", 
@@ -13162,7 +13162,7 @@
         "parents": [
             "fashion"
         ], 
-        "title": "Used, Vintage & Consignment"
+        "title": "Used, Vintage And Consignment"
     }, 
     {
         "alias": "vinyl_records", 
@@ -13197,7 +13197,7 @@
             "BR", 
             "SE"
         ], 
-        "title": "Vitamins & Supplements", 
+        "title": "Vitamins And Supplements", 
         "parents": [
             "shopping"
         ], 
@@ -13208,7 +13208,7 @@
         "parents": [
             "specialtyschools"
         ], 
-        "title": "Vocational & Technical School"
+        "title": "Vocational And Technical School"
     }, 
     {
         "country_whitelist": [
@@ -13416,7 +13416,7 @@
             "US", 
             "PT"
         ], 
-        "title": "Wheel & Rim Repair", 
+        "title": "Wheel And Rim Repair", 
         "parents": [
             "auto"
         ], 
@@ -13469,7 +13469,7 @@
             "IT", 
             "US"
         ], 
-        "title": "Wills, Trusts, & Probates", 
+        "title": "Wills, Trusts, And Probates", 
         "parents": [
             "estateplanning"
         ], 
@@ -13491,7 +13491,7 @@
     }, 
     {
         "alias": "windshieldinstallrepair", 
-        "title": "Windshield Installation & Repair", 
+        "title": "Windshield Installation And Repair", 
         "parents": [
             "auto"
         ], 
@@ -13718,4 +13718,5 @@
         ], 
         "alias": "zorbing"
     }
-]
+
+]}

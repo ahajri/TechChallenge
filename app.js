@@ -18,48 +18,22 @@ var Converter = require("csvtojson").Converter;
 var nodemailer = require("nodemailer");
 var json = require('json-update');
 var uuid = require('node-uuid');
-var
 
-//
-securityUtils = require('./utils/SecurityUtils.js');
+var securityUtils = require('./utils/SecurityUtils.js');
 var configServcice = require('./service/configService.js');
 
-
-
-util = require('util'), 
-fs = require('fs'), 
-assert = require('assert'), 
-request = require('request'),
-Glob = require('glob').Glob,
-cluster = require('cluster'), 
-Converter = require("csvtojson").Converter, 
-nodemailer = require("nodemailer"), 
-json = require('json-update'),
-uuid = require('node-uuid'),
-
 //
-securityUtils = require('./utils/SecurityUtils.js'), 
-configServcice = require('./service/configService.js'), 
-userServcice = require('./service/userService.js'), 
-crudServcice = require('./service/crudService.js'), 
-//
-languages = require('./data/ref/languages.json');
+var securityUtils = require('./utils/SecurityUtils.js');
+var configServcice = require('./service/configService.js'); 
 
-//
-var _db; // new Db('APPDB', new Server('localhost', 27017));
-
-var mongoclient = new MongoClient(new Server("localhost", 27017), {
-	native_parser : true
-});
 // run server
-var server = app.listen(8585, function() {
+var server = app.listen(8012, function() {
 	if (cluster.isMaster) {
 		console.log('Master process ...');
 	}
 	if (cluster.isWorker) {
 		console.log('Worker process ...');
 	}
-
 
 	var cpuCount = require('os').cpus().length;
 	console.log('CPU nodes = ' + cpuCount);
@@ -86,8 +60,8 @@ function supportCrossOriginScript(req, res, next) {
 
 app.post('/xls2json/', supportCrossOriginScript, function(req, res, next) {
 	xls2json({
-		input : "gdp.xls", // input xls
-		output : "gdp.json", // output json
+		input : "./data/ommonData/import/gdp.xls", // input xls
+		output : "./data/ommonData/import/gdp.json", // output json
 		sheet : "Data" // specific sheetname
 	}, function(err, result) {
 		if (err) {
