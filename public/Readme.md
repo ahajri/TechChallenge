@@ -1,4 +1,4 @@
-# Angular 2: Authentication sample.
+# Angular 2 + MarkLogic 
 
 This sample shows how to create an angular 2 app that:
 * Has **lots of different routes**
@@ -10,16 +10,11 @@ This sample shows how to create an angular 2 app that:
 
 ## Running it
 
-Clone this repository as well as [the server](https://github.com/auth0/nodejs-jwt-authentication-sample) for this example.
-
 First, run the server app in the port `3001`.
 
 Then, run `npm install` on this project and run `npm start` to start the app. Then just navigate to [http://localhost:3000](http://localhost:3000) :boom:
 Use `npm run server` to run API server.
 
-## Issue Reporting
-
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
 
 ## Author
 

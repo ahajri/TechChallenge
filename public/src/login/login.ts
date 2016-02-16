@@ -10,11 +10,13 @@ let template = require('./login.html');
 @Component({
   selector: 'login'
 })
+
 @View({
   directives: [RouterLink, CORE_DIRECTIVES, FORM_DIRECTIVES ],
   template: template,
   styles: [ styles ]
 })
+
 export class Login {
   constructor(public router: Router, public http: Http) {
   }
@@ -22,6 +24,8 @@ export class Login {
   login(event, username, password) {
     event.preventDefault();
     let body = JSON.stringify({ username, password });
+    //MarkLogic URL
+    //
     this.http.post('http://localhost:3001/sessions/create', body, { headers: contentHeaders })
       .subscribe(
         response => {

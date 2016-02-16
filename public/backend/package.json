@@ -1,5 +1,5 @@
 {
-  "name": "in-memory-todo",
+  "name": "ahajri-back",
   "version": "0.1.0",
   "description": "ahajri user inetrface to manipulate REST instance on MarkLogic",
   "main": "server.js",
@@ -33,6 +33,7 @@
     "express-jwt": "^0.3.1",
     "jsonwebtoken": "^1.1.2",
     "lodash": "^2.4.1",
-    "morgan": "^1.2.3"
+    "morgan": "^1.2.3",
+    "passport": "^0.3.2"
   }
 }
